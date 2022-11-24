@@ -1,0 +1,45 @@
+body {
+    background-color: $main-bg-color;
+    color: $main-color;
+
+    font-size: $main-font-size;
+    font-family: $main-font-face;
+}
+
+main {
+    padding: 20px;
+
+    h2 {
+        text-transform: uppercase;
+        color: $heading-color;
+        font-size: 1.5em;
+        margin-bottom: 0.8em;
+    }
+
+    hr {
+        width: 80%;
+        border: 1px solid $heading-color;
+        margin: 40px 0;
+    }
+
+    p {
+        max-width: 75%;
+    }
+}
+
+
+
+.success{
+	margin-bottom: 30px;
+	color: green;
+	background-color: #d2ffd2;
+	padding: 10px;
+	display: none;}
+
+
+.error{
+	color: #af4242;
+	background-color: #fde8ec;
+	padding: 10px;
+	
+	display:inline-block;}
